@@ -33,8 +33,27 @@ body{
   font-weight: 100;
   font-size: 4rem;
 }
+.secondSection h2{
+  color: #ea1c2c;
+  font-weight:100;
+  font-size: 2.2rem;
+}
 
-@media (max-width:1236px){
+.secondSection p{
+  color: #f498b8;
+  font-weight: 100;
+  font-size:1.2rem;
+  line-height: 1.8;
+}
+
+.content{
+  margin-bottom: 75px;
+}
+
+.navbar.scrolled{
+  background-color: #dec0de;
+}
+@media (max-width:1240px){
   #headingGroup h2{
     font-weight: 100px;
     font-size: 3rem;
